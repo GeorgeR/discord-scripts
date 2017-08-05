@@ -9,9 +9,11 @@ This script contains a recursive function that watches for the blocked message b
 2. Click the Console tab. You may see a warning; this is normal.
 3. Copy and paste the following code to the right of the **>** as pictured and hit enter:
 
-Code: `(function hideBlocked(){document.querySelectorAll('.message-group-blocked').forEach(div => div.setAttribute("style", "display: none;"));setTimeout(hideBlocked,500);})();`
+**Code:**
 
-Example:
+`(function hideBlocked(){document.querySelectorAll('.message-group-blocked').forEach(div => div.setAttribute("style", "display: none;"));setTimeout(hideBlocked,500);})();`
+
+**Example:**
 
 ![ScreenShot](http://dsasmblr.com/github/img/discord-hide-blocked-messages-div-example.png)
 
