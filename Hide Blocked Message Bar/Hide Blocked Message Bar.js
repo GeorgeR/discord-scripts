@@ -13,7 +13,7 @@
 // Recursive IIFE (Immediately-Invoked Function Expression)
 (function hideBlocked(){
 	// Find all elements with class .message-group-blocked
-	document.querySelectorAll('.message-group-blocked')
+	document.querySelectorAll('div[class*="messageGroupBlocked"]')
 	
 	// For each element found, apply an inline style that hides that element
 	.forEach(div => div.setAttribute("style", "display: none;"));
